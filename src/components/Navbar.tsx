@@ -27,8 +27,9 @@ export default function Navbar() {
       <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
         {/* Left: Logo + nav links */}
         <div className="flex items-center gap-10">
-          <a href="#" className="flex-shrink-0">
+          <a href="#" className="flex-shrink-0 flex items-center gap-2.5">
             <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="AgentPlex" className="h-8" />
+            <span className="font-semibold text-lg text-text-primary">AgentPlex</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
