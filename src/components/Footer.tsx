@@ -12,6 +12,7 @@ function smoothScroll(href: string) {
 
 export default function Footer() {
   function handleLinkClick(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
+    if (href === '#') return
     e.preventDefault()
     smoothScroll(href)
   }

@@ -16,6 +16,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   function handleLinkClick(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
+    if (href === '#') return
     e.preventDefault()
     smoothScroll(href)
     setMobileOpen(false)
