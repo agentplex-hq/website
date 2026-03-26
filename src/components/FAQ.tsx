@@ -43,7 +43,7 @@ export default function FAQ() {
         </h2>
 
         {/* Accordion */}
-        <div className="flex flex-col gap-3">
+        <dl className="flex flex-col gap-3">
           {faqItems.map((item, index) => {
             const isOpen = openIndex === index
             return (
@@ -51,8 +51,10 @@ export default function FAQ() {
                 key={index}
                 className="bg-bg-surface border border-white/[0.06] rounded-xl overflow-hidden"
               >
+                <dt>
                 <button
                   onClick={() => toggle(index)}
+                  aria-expanded={isOpen}
                   className="w-full flex items-center justify-between px-6 py-5 text-left"
                 >
                   <span className="font-medium text-base pr-4">{item.q}</span>
@@ -70,7 +72,8 @@ export default function FAQ() {
                     <path d="M5 7.5l5 5 5-5" />
                   </svg>
                 </button>
-                <div
+                </dt>
+                <dd
                   className={`grid transition-all duration-200 ease-in-out ${
                     isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
                   }`}
@@ -78,11 +81,11 @@ export default function FAQ() {
                   <div className="overflow-hidden">
                     <p className="px-6 pb-5 text-text-muted text-sm leading-relaxed">{item.a}</p>
                   </div>
-                </div>
+                </dd>
               </div>
             )
           })}
-        </div>
+        </dl>
       </div>
     </section>
   )

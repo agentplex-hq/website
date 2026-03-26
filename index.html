@@ -2,15 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgentPlex — Orchestrate Your Coding Agents</title>
+
+    <!-- Primary Meta Tags -->
+    <title>AgentPlex — AI Coding Agent Orchestrator | Visual Multi-Agent Workflow Tool</title>
+    <meta name="description" content="AgentPlex is a free, open-source desktop app for orchestrating Claude CLI, Codex, and Copilot sessions with real-time graph visualization and cross-session coordination." />
+    <meta name="keywords" content="agentplex, coding agent orchestrator, AI agent orchestration, multi-agent workflow, claude cli manager, codex session manager, AI coding tools, visual agent orchestration, coding agent dashboard, multi-session AI tool" />
+    <meta name="author" content="AgentPlex" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://agentplex-hq.github.io/website/" />
+    <meta name="theme-color" content="#262420" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://agentplex-hq.github.io/website/" />
+    <meta property="og:title" content="AgentPlex — AI Coding Agent Orchestrator" />
+    <meta property="og:description" content="Free, open-source desktop app for orchestrating Claude CLI, Codex, and Copilot sessions with real-time graph visualization and cross-session coordination." />
+    <meta property="og:image" content="https://agentplex-hq.github.io/website/images/hero-screenshot.png" />
+    <meta property="og:site_name" content="AgentPlex" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AgentPlex — AI Coding Agent Orchestrator" />
+    <meta name="twitter:description" content="Free, open-source desktop app for orchestrating Claude CLI, Codex, and Copilot sessions with real-time graph visualization and cross-session coordination." />
+    <meta name="twitter:image" content="https://agentplex-hq.github.io/website/images/hero-screenshot.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/website/images/logo.svg" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AgentPlex",
+      "description": "A free, open-source desktop application for orchestrating multiple coding agent sessions (Claude CLI, Codex, GitHub Copilot) with real-time graph visualization, sub-agent tracking, cross-session messaging, and human-in-the-loop alerts.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Windows",
+      "url": "https://agentplex-hq.github.io/website/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AgentPlex",
+      "url": "https://agentplex-hq.github.io/website/",
+      "logo": "https://agentplex-hq.github.io/website/images/logo.svg"
+    }
+    </script>
   </head>
   <body class="bg-bg-primary text-text-primary font-sans antialiased">
     <div id="root"></div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;color:#ccc;font-family:sans-serif;">AgentPlex requires JavaScript to display this page.</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
