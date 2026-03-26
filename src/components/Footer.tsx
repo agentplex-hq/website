@@ -23,7 +23,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* Left: Logo + tagline */}
           <div>
-            <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="AgentPlex" className="h-8 mb-3" />
+            <div className="flex items-center gap-2.5 mb-3">
+              <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="AgentPlex" className="h-8" />
+              <span className="font-semibold text-lg text-text-primary">AgentPlex</span>
+            </div>
             <p className="text-text-muted text-sm">Orchestrate coding agents visually.</p>
           </div>
 
