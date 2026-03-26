@@ -24,7 +24,7 @@ export default function Hero() {
             href="#"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-7 py-3.5 rounded-lg hover:scale-[1.02] transition"
           >
-            <img src="/images/icon-windows.svg" alt="" className="w-5 h-5" />
+            <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-5 h-5" />
             Download for Windows
           </a>
           <button
@@ -47,7 +47,7 @@ export default function Hero() {
 
         {/* Hero screenshot */}
         <div className="max-w-[1000px] mx-auto rounded-xl overflow-hidden shadow-2xl shadow-accent/10 border border-white/5">
-          <img src="/images/hero-screenshot.png" alt="AgentPlex graph canvas" className="w-full" />
+          <img src={`${import.meta.env.BASE_URL}images/hero-screenshot.png`} alt="AgentPlex graph canvas" className="w-full" />
         </div>
       </div>
     </section>

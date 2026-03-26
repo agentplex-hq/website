@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* Left: Logo + tagline */}
           <div>
-            <img src="/images/logo.svg" alt="AgentPlex" className="h-8 mb-3" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="AgentPlex" className="h-8 mb-3" />
             <p className="text-text-muted text-sm">Orchestrate coding agents visually.</p>
           </div>
 
@@ -50,7 +50,7 @@ export default function Footer() {
               className="inline-block"
             >
               <img
-                src="/images/icon-github.svg"
+                src={`${import.meta.env.BASE_URL}images/icon-github.svg`}
                 alt="GitHub"
                 className="w-6 h-6 opacity-60 hover:opacity-100 transition-opacity"
               />

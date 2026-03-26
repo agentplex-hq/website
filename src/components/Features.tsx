@@ -1,21 +1,23 @@
+const base = import.meta.env.BASE_URL
+
 const features = [
   {
-    icon: '/images/icon-graph.svg',
+    icon: `${base}images/icon-graph.svg`,
     title: 'Visual Graph Canvas',
     desc: 'Drag-and-drop session nodes on an interactive canvas to organize your workflow.',
   },
   {
-    icon: '/images/icon-sessions.svg',
+    icon: `${base}images/icon-sessions.svg`,
     title: 'Multi-Session Management',
     desc: 'Run Claude, Codex, and Copilot sessions simultaneously in one workspace.',
   },
   {
-    icon: '/images/icon-subagent.svg',
+    icon: `${base}images/icon-subagent.svg`,
     title: 'Sub-Agent Tracking',
     desc: 'Automatically detect and visualize spawned sub-agents in real time.',
   },
   {
-    icon: '/images/icon-alert.svg',
+    icon: `${base}images/icon-alert.svg`,
     title: 'Human-in-the-Loop Alerts',
     desc: 'Get notified instantly when a session needs your input.',
   },

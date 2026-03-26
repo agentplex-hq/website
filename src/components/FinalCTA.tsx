@@ -16,7 +16,7 @@ export default function FinalCTA() {
           href="#"
           className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-8 py-4 text-lg rounded-lg hover:scale-[1.02] transition"
         >
-          <img src="/images/icon-windows.svg" alt="" className="w-5 h-5" />
+          <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-5 h-5" />
           Download for Windows
         </a>
       </div>

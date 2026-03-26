@@ -17,14 +17,14 @@ export default function Showcase() {
             href="#"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-7 py-3.5 rounded-lg hover:scale-[1.02] transition"
           >
-            <img src="/images/icon-windows.svg" alt="" className="w-5 h-5" />
+            <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-5 h-5" />
             Download for Windows
           </a>
         </div>
 
         {/* Right column: Screenshot */}
         <div className="rounded-xl overflow-hidden border border-white/5 shadow-lg shadow-accent/5">
-          <img src="/images/showcase-screenshot.png" alt="AgentPlex multi-session view" className="w-full" />
+          <img src={`${import.meta.env.BASE_URL}images/showcase-screenshot.png`} alt="AgentPlex multi-session view" className="w-full" />
         </div>
       </div>
     </section>
