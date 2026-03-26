@@ -22,11 +22,9 @@ export default function Showcase() {
           </a>
         </div>
 
-        {/* Right column: Screenshot placeholder */}
+        {/* Right column: Screenshot */}
         <div className="rounded-xl overflow-hidden border border-white/5 shadow-lg shadow-accent/5">
-          <div className="bg-bg-surface aspect-[3/2] flex items-center justify-center text-text-muted text-sm">
-            showcase-screenshot.png / 600 x 400
-          </div>
+          <img src="/images/showcase-screenshot.png" alt="AgentPlex multi-session view" className="w-full" />
         </div>
       </div>
     </section>

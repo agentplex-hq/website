@@ -45,11 +45,9 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Hero screenshot placeholder */}
+        {/* Hero screenshot */}
         <div className="max-w-[1000px] mx-auto rounded-xl overflow-hidden shadow-2xl shadow-accent/10 border border-white/5">
-          <div className="bg-bg-surface aspect-video flex items-center justify-center text-text-muted text-sm">
-            hero-screenshot.png / 1200 x 700 — Drop your screenshot in public/images/
-          </div>
+          <img src="/images/hero-screenshot.png" alt="AgentPlex graph canvas" className="w-full" />
         </div>
       </div>
     </section>
