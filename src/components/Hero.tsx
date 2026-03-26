@@ -38,7 +38,7 @@ export default function Hero() {
         {/* Social proof pill */}
         <div className="flex justify-center mb-16">
           <div className="bg-bg-surface px-4 py-2 rounded-full text-sm text-text-muted inline-flex items-center gap-2">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="#e8c070">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#facc15">
               <path d="M8 0l2.47 4.94L16 5.76l-4 3.88.94 5.48L8 12.68l-4.94 2.44.94-5.48-4-3.88 5.53-.82z" />
             </svg>
             Built for developers who orchestrate AI workflows
