@@ -13,7 +13,7 @@ export default function FinalCTA() {
           Join developers who are managing complex AI workflows with a visual-first approach.
         </p>
         <a
-          href="#"
+          href="https://github.com/AlexPeppas/agentplex/releases/download/v1.2.0/AgentPlex.exe"
           className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-8 py-4 text-lg rounded-lg hover:scale-[1.02] transition"
         >
           <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-5 h-5" />

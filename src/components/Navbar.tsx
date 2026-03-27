@@ -48,7 +48,7 @@ export default function Navbar() {
 
         {/* Right: Desktop CTA */}
         <a
-          href="#"
+          href="https://github.com/AlexPeppas/agentplex/releases/download/v1.2.0/AgentPlex.exe"
           className="hidden md:inline-flex flex-shrink-0 items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold text-sm px-5 py-2.5 rounded-lg transition"
         >
           <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-4 h-4" />
@@ -81,7 +81,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#"
+            href="https://github.com/AlexPeppas/agentplex/releases/download/v1.2.0/AgentPlex.exe"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold text-sm px-5 py-2.5 rounded-lg transition w-fit"
           >
             <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-4 h-4" />

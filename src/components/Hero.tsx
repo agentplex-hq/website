@@ -21,7 +21,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-row items-center justify-center gap-4 mb-8">
           <a
-            href="#"
+            href="https://github.com/AlexPeppas/agentplex/releases/download/v1.2.0/AgentPlex.exe"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-7 py-3.5 rounded-lg hover:scale-[1.02] transition"
           >
             <img src={`${import.meta.env.BASE_URL}images/icon-windows.svg`} alt="" className="w-5 h-5" />

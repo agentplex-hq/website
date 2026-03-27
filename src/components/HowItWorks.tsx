@@ -46,7 +46,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="flex justify-center">
           <a
-            href="#"
+            href="https://github.com/AlexPeppas/agentplex/releases/download/v1.2.0/AgentPlex.exe"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover active:bg-accent-active text-bg-inset font-semibold px-7 py-3.5 rounded-lg hover:scale-[1.02] transition"
           >
             Get Started Now
